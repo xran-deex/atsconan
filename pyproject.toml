@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "atsconan"
+version = "0.1.0"
+description = ""
+authors = ["Randy Valis <randy.valis@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+conan = "^1.36.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.8.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
