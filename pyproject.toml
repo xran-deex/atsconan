@@ -5,7 +5,7 @@ description = ""
 authors = ["Randy Valis <randy.valis@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.6"
 conan = "^1.36.0"
 
 [tool.poetry.dev-dependencies]
